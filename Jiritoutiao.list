@@ -1,0 +1,74 @@
+# 大部分今日头条代理规则，更新日期：20240710
+# 某些网址和抖音ip属地伪装重合，也就是说，如果要伪装抖音ip，可能这个分组也要一起改
+#	api5-normal-lf.toutiaoapi.com
+#	polaris5-normal-lf.zijieapi.com
+#	api5-normal-m-pd.toutiaoapi.com
+#	vcs.zijieapi.com
+#	gecko5-lf.zijieapi.com
+#	search5-search-hl.toutiaoapi.com
+#	api16-normal-lf.toutiaoapi.com
+#	timon.zijieapi.com
+#	ma5-normal-lf.zijieapi.com
+#	log3-normal-hl.toutiaoapi.com
+#	tnc3-bjlgy.toutiaoapi.com
+#	saveu5-normal-lf.zijieapi.com
+#	mssdk3-normal-pd.zijieapi.com
+#	ads5-normal.zijieapi.com
+#	mon.zijieapi.com
+#	isub.snssdk.com
+#	mon.snssdk.com
+#	frontier100-toutiao.toutiaoapi.com
+#	log0-normal-lf.toutiaoapi.com
+#	log0-normal-hl.toutiaoapi.com
+#	webcast5-wbnormal-lf.toutiaoapi.com
+#	ec5-core-lf.ecombdapi.com
+#	imapi5-oth.zijieapi.com
+#	ecom5-normal-lf.ecombdapi.com
+#	abtest3-misc-hl.zijieapi.com
+#	isaas5-normal-lf.ecombdapi.com
+#	log3-normal-lf.toutiaoapi.com
+#	imapi5-oth-lf.zijieapi.com
+#	isub-hl.snssdk.com
+#	mon11-misc-lf.toutiaoapi.com
+#	learning.toutiaoapi.com
+#	i.snssdk.com
+#	tnc3-bjlgy.zijieapi.com
+#	ad.zijieapi.com
+#	applog.snssdk.com
+#	api3-normal-lf.toutiaoapi.com
+DOMAIN-SUFFIX,api5-normal-lf.toutiaoapi.com
+DOMAIN-SUFFIX,polaris5-normal-lf.zijieapi.com
+DOMAIN-SUFFIX,api5-normal-m-pd.toutiaoapi.com
+DOMAIN-SUFFIX,vcs.zijieapi.com
+DOMAIN-SUFFIX,gecko5-lf.zijieapi.com
+DOMAIN-SUFFIX,search5-search-hl.toutiaoapi.com
+DOMAIN-SUFFIX,api16-normal-lf.toutiaoapi.com
+DOMAIN-SUFFIX,timon.zijieapi.com
+DOMAIN-SUFFIX,ma5-normal-lf.zijieapi.com
+DOMAIN-SUFFIX,log3-normal-hl.toutiaoapi.com
+DOMAIN-SUFFIX,tnc3-bjlgy.toutiaoapi.com
+DOMAIN-SUFFIX,saveu5-normal-lf.zijieapi.com
+DOMAIN-SUFFIX,mssdk3-normal-pd.zijieapi.com
+DOMAIN-SUFFIX,ads5-normal.zijieapi.com
+DOMAIN-SUFFIX,mon.zijieapi.com
+DOMAIN-SUFFIX,isub.snssdk.com
+DOMAIN-SUFFIX,mon.snssdk.com
+DOMAIN-SUFFIX,frontier100-toutiao.toutiaoapi.com
+DOMAIN-SUFFIX,log0-normal-lf.toutiaoapi.com
+DOMAIN-SUFFIX,log0-normal-hl.toutiaoapi.com
+DOMAIN-SUFFIX,webcast5-wbnormal-lf.toutiaoapi.com
+DOMAIN-SUFFIX,ec5-core-lf.ecombdapi.com
+DOMAIN-SUFFIX,imapi5-oth.zijieapi.com
+DOMAIN-SUFFIX,ecom5-normal-lf.ecombdapi.com
+DOMAIN-SUFFIX,abtest3-misc-hl.zijieapi.com
+DOMAIN-SUFFIX,isaas5-normal-lf.ecombdapi.com
+DOMAIN-SUFFIX,log3-normal-lf.toutiaoapi.com
+DOMAIN-SUFFIX,imapi5-oth-lf.zijieapi.com
+DOMAIN-SUFFIX,isub-hl.snssdk.com
+DOMAIN-SUFFIX,mon11-misc-lf.toutiaoapi.com
+DOMAIN-SUFFIX,learning.toutiaoapi.com
+DOMAIN-SUFFIX,i.snssdk.com
+DOMAIN-SUFFIX,tnc3-bjlgy.zijieapi.com
+DOMAIN-SUFFIX,ad.zijieapi.com
+DOMAIN-SUFFIX,applog.snssdk.com
+DOMAIN-SUFFIX,api3-normal-lf.toutiaoapi.com
