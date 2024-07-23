@@ -2,7 +2,8 @@
 clash-meta 可用，clash verge可用，stash 可用
 包含今日头条、贴贴（某交友app）等一些冷门的没人做的。
 
-# 前端规则请直接观看https://raw.githubusercontent.com/KeterCo/ClashRules/main/Main.list   主要特色：
+# 前端规则请直接观看https://raw.githubusercontent.com/KeterCo/ClashRules/main/Main.list
+# 主要特色：
 #社交平台ip归属地伪装，国内APP评论区定位到其他国家和地区
 #AI机器人分组一站式(Chatgpt、Copilot、Bing，其他AI:Gemini、Claude)
 #Steam下载强制直连，不消耗国外流量
