@@ -1,0 +1,12 @@
+#贴贴app代理规则
+DOMAIN-SUFFIX,miliantech.com
+DOMAIN-SUFFIX,tie520.com
+DOMAIN-KEYWORD,yidui-android.cn
+DOMAIN-SUFFIX,volceapplog.com
+DOMAIN-SUFFIX,wkrd.tingyun.com
+DOMAIN-SUFFIX,wkdcm2.tingyun.com
+DOMAIN-SUFFIX,yidui-android.cn-hangzhou.log.aliyuncs.com
+DOMAIN-SUFFIX,dt.dbankcloud.cn
+DOMAIN-SUFFIX,oceanengine.com
+DOMAIN-SUFFIX,com.tie520
+DOMAIN-SUFFIX,520yidui.com
