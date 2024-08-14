@@ -1,9 +1,7 @@
-#missav的广告，建议放入广告拦截里面
+# missav的广告，建议放入广告拦截里面
 DOMAIN-SUFFIX,zlzph2550.vip
 DOMAIN-SUFFIX,sakurayatoys.com
 DOMAIN-SUFFIX,bit.ly
-
-#部分常用隐私防护和广告拦截
 DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN-SUFFIX,a.ac.qq.com
 DOMAIN-SUFFIX,ad.qq.com
