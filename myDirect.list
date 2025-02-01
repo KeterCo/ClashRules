@@ -5,7 +5,6 @@ DOMAIN,cc.vidhub.link
 DOMAIN-SUFFIX,vidhub.app
 DOMAIN-SUFFIX,vidhub.link
 
-
 #steam下载直连,不浪费节点
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamchina.com
@@ -31,7 +30,6 @@ DOMAIN,steamuserimages-a.akamaihd.net
 DOMAIN-SUFFIX,huya.kiwi
 DOMAIN-SUFFIX,huya.com
 
-
 #斗鱼直播，完全的
 DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,douyu.tv
@@ -43,3 +41,6 @@ DOMAIN-SUFFIX,douyuscdn.com
 DOMAIN-SUFFIX,douyutv.com
 DOMAIN-SUFFIX,doyonoc.com
 DOMAIN-SUFFIX,oywtv.com
+
+#动画巡礼
+DOMAIN-SUFFIX,anitabi.cn
