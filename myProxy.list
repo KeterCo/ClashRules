@@ -3,3 +3,5 @@
 DOMAIN-SUFFIX,freedidi.com
 #ubuntu下载
 DOMAIN-SUFFIX,archive.ubuntu.com
+#谷歌浏览器广告
+DOMAIN-SUFFIX,googleadservices.com
