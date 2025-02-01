@@ -1,0 +1,34 @@
+# 从其他大佬那里找到的关于AI的补充
+# AI all in one
+payload:
+# Gemini&Bard
+DOMAIN,ai.google.dev
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,makersuite.google.com
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+# Other
+DOMAIN-SUFFIX,lmsys.org
+DOMAIN-SUFFIX,poe.com
+DOMAIN-KEYWORD,cohere
+DOMAIN-SUFFIX,coze.com
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,klingai.com
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,sider.ai
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,codeiumdata.com
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,hcompany.ai
+DOMAIN-KEYWORD,hcompany
+DOMAIN-KEYWORD,groq
