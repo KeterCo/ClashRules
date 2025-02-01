@@ -1,3 +1,5 @@
 #自定义的国外代理列表
 #零度博客
 DOMAIN-SUFFIX,freedidi.com
+#ubuntu下载
+DOMAIN-SUFFIX,archive.ubuntu.com
