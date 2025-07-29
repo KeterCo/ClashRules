@@ -44,3 +44,10 @@ DOMAIN-SUFFIX,oywtv.com
 
 #动画巡礼
 DOMAIN-SUFFIX,anitabi.cn
+
+#cloudflare部分明显的CN直连
+DOMAIN-SUFFIX,cftest5.cn
+DOMAIN-SUFFIX,cftest6.cn
+DOMAIN-SUFFIX,cloudflare-cn.com
+DOMAIN-SUFFIX,cloudflarecn.net
+DOMAIN-SUFFIX,cloudflareinsights-cn.com
