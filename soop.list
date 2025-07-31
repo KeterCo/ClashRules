@@ -101,5 +101,5 @@ DOMAIN-SUFFIX,imasdk.googleapis.com
 DOMAIN-SUFFIX,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
 DOMAIN-SUFFIX,firebaselogging.googleapis.com
-IP-CIDR,118.218.125.111/32,no-resolve
+IP-CIDR,118.218.125.0/24,no-resolve
 
