@@ -102,4 +102,4 @@ DOMAIN-SUFFIX,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
 DOMAIN-SUFFIX,firebaselogging.googleapis.com
 IP-CIDR,118.218.125.0/24,no-resolve
-
+IP-CIDR,118.219.252.0/24,no-resolve
