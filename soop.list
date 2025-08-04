@@ -1,4 +1,5 @@
 # AfreecaTV soop
+# 优先韩国，其次日本、香港，不建议美国
 DOMAIN-SUFFIX,sooplive.co.kr
 DOMAIN,live.afreecatv.com
 DOMAIN-SUFFIX,file.afreecatv.com
