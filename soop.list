@@ -140,9 +140,11 @@ IP-CIDR,118.37.106.238/32,no-resolve
 IP-CIDR,183.99.119.233/32,no-resolve
 IP-CIDR,211.245.5.210/32,no-resolve
 IP-CIDR,121.169.170.254/32,no-resolve
-IP-CIDR,1.226.48.205/32,no-resolve
+IP-CIDR,1.226.48.205/24,no-resolve
 IP-CIDR,218.158.51.82/32,no-resolve
 IP-CIDR,220.118.219.47/32,no-resolve
 IP-CIDR,222.114.10.227/32,no-resolve
+IP-CIDR,222.121.161.146/32,no-resolve
+IP-CIDR,61.38.4.3/32,no-resolve
 DOMAIN-SUFFIX,shopfreeca.cdn-nhncommerce.com
 
