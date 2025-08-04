@@ -115,7 +115,7 @@ IP-CIDR,61.74.0.250/32,no-resolve
 IP-CIDR,221.161.153.112/32,no-resolve
 IP-CIDR,183.102.192.104/32,no-resolve
 IP-CIDR,124.57.93.10/32,no-resolve
-IP-CIDR,114.203.86.241/32,no-resolve
+IP-CIDR,114.203.86.241/24,no-resolve
 IP-CIDR,112.172.98.240/32,no-resolve
 IP-CIDR,114.204.200.161/32,no-resolve
 IP-CIDR,61.98.39.81/32,no-resolve
@@ -139,5 +139,10 @@ IP-CIDR,125.143.10.8/32,no-resolve
 IP-CIDR,118.37.106.238/32,no-resolve
 IP-CIDR,183.99.119.233/32,no-resolve
 IP-CIDR,211.245.5.210/32,no-resolve
+IP-CIDR,121.169.170.254/32,no-resolve
+IP-CIDR,1.226.48.205/32,no-resolve
+IP-CIDR,218.158.51.82/32,no-resolve
+IP-CIDR,220.118.219.47/32,no-resolve
+IP-CIDR,222.114.10.227/32,no-resolve
 DOMAIN-SUFFIX,shopfreeca.cdn-nhncommerce.com
 
