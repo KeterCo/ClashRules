@@ -96,7 +96,6 @@ DOMAIN-SUFFIX,firebase-settings.crashlytics.com
 DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
 DOMAIN-SUFFIX,t1.daumcdn.net
 DOMAIN-SUFFIX,tr.ad.daum.net
-DOMAIN-SUFFIX,edge-mqtt.facebook.com
 DOMAIN-SUFFIX,imasdk.googleapis.com
 DOMAIN-SUFFIX,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
