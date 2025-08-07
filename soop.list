@@ -77,7 +77,6 @@ PROCESS-NAME,afreeca
 
 
 #补充
-DOMAIN-SUFFIX,graph.facebook.com
 DOMAIN-SUFFIX,edge-mqtt-fallback.facebook.com
 DOMAIN-SUFFIX,display.ad.daum.net
 DOMAIN-SUFFIX,tr.ad.daum.net
