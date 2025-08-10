@@ -13,10 +13,10 @@ DOMAIN-SUFFIX,browserkernel.yuv.com
 DOMAIN-SUFFIX,api16-access-wf-sg.pangle.io
 
 DOMAIN-SUFFIX,gravity.place
-DOMAIN-SUFFIX,api.gravity.place
-DOMAIN-SUFFIX,implus.gravity.place
-DOMAIN-SUFFIX,cdn.gravity.place
-DOMAIN-SUFFIX,statis.gravity.place
-DOMAIN-SUFFIX,lcs.gravity.place
-DOMAIN-SUFFIX,lcsplus.gravity.place
+#DOMAIN-SUFFIX,api.gravity.place
+#DOMAIN-SUFFIX,implus.gravity.place
+#DOMAIN-SUFFIX,cdn.gravity.place
+#DOMAIN-SUFFIX,statis.gravity.place
+#DOMAIN-SUFFIX,lcs.gravity.place
+#DOMAIN-SUFFIX,lcsplus.gravity.place
 
