@@ -1,68 +1,70 @@
-;更新时间202502011850
-;版本号：54
+;更新时间202508260829
+;版本号：73
 [custom]
 ;国内流量myDirect.list代理了虎牙和斗鱼、steam、vidhub，不需要请移除
+;范围越小的，越独立的ip列表放越上面。
+;潜在涉及的范围越大的，盘根错节的放越下面
+;跟国内国外没关系
+;YouTube分组要高于AI分组和推特分组，不然YouTube分组无法生效，里面有重复的。
 
 ;设置规则标志位
+ruleset=🎯 国内流量,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
+ruleset=🎯 国内流量,httpshttps://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Duolingo/Duolingo.list
+ruleset=🎯 国内流量,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.list
+ruleset=🎯 国内流量,https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Custom_Direct.list
+ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+ruleset=🎯 国内流量,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Rule/Inside.list
+ruleset=🎯 国内流量,https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Steam_CDN.list
+ruleset=🚀 国外流量,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AppleMusic/AppleMusic.list
+ruleset=👽 Reddit,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Reddit/Reddit.list
+ruleset=📲 Telegram,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
+ruleset=📹 YouTube,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+ruleset=🏂 Twitter,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.list
+ruleset=🏂 Twitter,https://raw.githubusercontent.com/KeterCo/ClashRules/refs/heads/main/USAIPNeeded.list
+ruleset=🎶 TikTok,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+ruleset=🎥 Netflix,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
+ruleset=📺 SOOP,https://raw.githubusercontent.com/KeterCo/ClashRules/refs/heads/main/Soop.list
+ruleset=🕳️ Gravity,https://raw.githubusercontent.com/KeterCo/ClashRules/refs/heads/main/Gravity.list
+
+ruleset=🇩 Discord,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.yaml
+ruleset=🎵 Spotify,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml
+ruleset=🚀 国外流量,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Yandex/Yandex.yaml
+ruleset=🚀 国外流量,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list
+ruleset=🚀 国外流量,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PikPak/PikPak.list
+ruleset=🚀 国外流量,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PikPak/PikPak.yaml
+
+ruleset=🤖 AI,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Rule/ChatGPT.list
+ruleset=🤖 AI,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml
+ruleset=🤖 AI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list
+ruleset=🤖 AI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.list
+ruleset=🤖 AI,https://raw.githubusercontent.com/KeterCo/ClashRules/main/RestAI.list
+ruleset=🔍 谷歌服务,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list
+
+ruleset=Ⓜ️ 微软AI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list
+ruleset=🚀 国外流量,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
+ruleset=🚀 国外流量,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
+
+ruleset=🎮 游戏平台,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml
 
 ;自己添加的规则，可删，但建议保留
 ruleset=🛑 广告拦截,https://raw.githubusercontent.com/KeterCo/ClashRules/main/myReject_2.list
 ruleset=🎯 国内流量,https://raw.githubusercontent.com/KeterCo/ClashRules/main/Jiritoutiao.list
 ruleset=🎯 国内流量,https://raw.githubusercontent.com/KeterCo/ClashRules/main/myDirect.list
 ruleset=🚀 国外流量,https://raw.githubusercontent.com/KeterCo/ClashRules/main/myProxy.list
-ruleset=💓 贴贴,https://raw.githubusercontent.com/KeterCo/ClashRules/main/Tietie.list
-ruleset=🛸 B站IP伪装,clash-classic:https://raw.githubusercontent.com/KeterCo/ClashRules/main/BilibiliAntiIpAttribution.yaml
-ruleset=🛸 抖音伪装,https://raw.githubusercontent.com/KeterCo/ClashRules/main/anti-ip-attribution-douyin.list
-ruleset=🛸 IP归属地伪装,clash-classic:https://raw.githubusercontent.com/lwd-temp/anti-ip-attribution/main/generated/rule-provider.yaml
-ruleset=🛑 广告拦截,https://raw.githubusercontent.com/KeterCo/ClashRules/main/myReject_3.list
+ruleset=🕶️ B站IP伪装,clash-classic:https://raw.githubusercontent.com/KeterCo/ClashRules/main/BilibiliAntiIpAttribution.yaml
+ruleset=🕶️ 抖音伪装,https://raw.githubusercontent.com/KeterCo/ClashRules/main/anti-ip-attribution-douyin.list
+ruleset=🕶️ IP归属地伪装,clash-classic:https://raw.githubusercontent.com/lwd-temp/anti-ip-attribution/main/generated/rule-provider.yaml
 ;自己添加的规则，可删，但建议保留
 
+ruleset=🚀 国外流量,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Cloudflare/Cloudflare.list
 
-ruleset=🚀 国外流量,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AppleMusic/AppleMusic.list
-ruleset=🛑 广告拦截,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ad.list
-ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
-ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
-ruleset=🛑 广告拦截,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.yaml
-
-ruleset=🚀 国外流量,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list
-ruleset=🚀 国外流量,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PikPak/PikPak.list
-ruleset=🚀 国外流量,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PikPak/PikPak.yaml
-ruleset=🎯 国内流量,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
-ruleset=🎯 国内流量,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.list
-ruleset=🎯 国内流量,https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Custom_Direct.list
-ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-ruleset=🎯 国内流量,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Rule/Inside.list
-ruleset=🎯 国内流量,https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/rule/Steam_CDN.list
-ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
-ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
-
-ruleset=🎮 游戏平台,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml
-ruleset=🎶 TikTok,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
-ruleset=🏂 Twitter,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.list
-ruleset=🏂 Twitter,https://raw.githubusercontent.com/KeterCo/ClashRules/refs/heads/main/USAIPNeeded.list
-ruleset=📲 Telegram,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
-ruleset=🤖 AI,https://raw.githubusercontent.com/cutethotw/ClashRule/main/Rule/ChatGPT.list
-ruleset=🤖 AI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.list
-ruleset=🤖 AI,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml
-ruleset=🤖 AI,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml
-ruleset=🤖 AI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list
-ruleset=🤖 AI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.list
-ruleset=🤖 AI,https://raw.githubusercontent.com/KeterCo/ClashRules/main/RestAI.list
 ruleset=📺 Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
 ruleset=📺 Bilibili,https://raw.githubusercontent.com/ACL4SSR/ACL4SSaR/master/Clash/Ruleset/Bilibili.list
-ruleset=📹 YouTube,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
-ruleset=🎥 Netflix,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
-ruleset=🇩 Discord,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.yaml
-ruleset=🎬 EMBY,clash-classic:https://raw.githubusercontent.com/cutethotw/ClashRule/main/Rule/Emby.yaml
-ruleset=🎬 EMBY,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby/Emby.yaml
-ruleset=Ⓜ️ 微软云盘,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.yaml
-ruleset=🐹 DisneyPlus,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.yaml
-ruleset=🎦 HBOGO,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOHK/HBOHK.yaml
-ruleset=🎦 HBOGO,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOAsia/HBOAsia.yaml
-ruleset=🎦 HBOMAX,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOUSA/HBOUSA.yaml
-ruleset=🎵 Spotify,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml
-ruleset=🚀 国外流量,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list
-;无法生效，ruleset=🛑 广告拦截,clash-classic:https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
+ruleset=🛑 广告拦截,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.yaml
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
+
 ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 国内流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=🚀 国外流量,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
@@ -72,29 +74,29 @@ ruleset=🐟 漏网之鱼,[]FINAL
 ;设置规则标志位
 
 ;设置分组标志位
-custom_proxy_group=✈️ 节点选择`select`[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]🇭🇰 香港自动`[]🇯🇵 日本自动`[]🇺🇲 美国自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🇸🇬 新加坡自动`[]🇸🇬 新加坡节点`[]DIRECT`[]REJECT`.*
-custom_proxy_group=🛩️ 备用`select`[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]🇭🇰 香港自动`[]🇯🇵 日本自动`[]🇺🇲 美国自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🇸🇬 新加坡自动`[]🇸🇬 新加坡节点`[]DIRECT`[]REJECT`.*
+custom_proxy_group=✈️ 节点选择`select`[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]🇭🇰 香港自动`[]🇯🇵 日本自动`[]🇺🇲 美国自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🇸🇬 新加坡自动`[]🇸🇬 新加坡节点`[]🇰🇷 韩国自动`[]DIRECT`[]REJECT`.*
+custom_proxy_group=🛩️ 备用`select`[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]🇭🇰 香港自动`[]🇯🇵 日本自动`[]🇺🇲 美国自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🇸🇬 新加坡自动`[]🇸🇬 新加坡节点`[]🇰🇷 韩国自动`[]DIRECT`[]REJECT`.*
 custom_proxy_group=🎮 游戏平台`select`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🎯 国内流量`[]🚀 国外流量`[]✈️ 节点选择`[]🛩️ 备用`[]DIRECT`.*
-custom_proxy_group=🛸 IP归属地伪装`select`[]DIRECT`[]🔯 故障转移`[]✈️ 节点选择`[]🛩️ 备用`[]🎯 国内流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`.*
-custom_proxy_group=🛸 B站IP伪装`select`[]🛸 IP归属地伪装`[]DIRECT`[]🔯 故障转移`[]✈️ 节点选择`[]🛩️ 备用`[]🎯 国内流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`.*
-custom_proxy_group=🛸 抖音伪装`select`[]🛸 IP归属地伪装`[]DIRECT`[]🔯 故障转移`[]✈️ 节点选择`[]🛩️ 备用`[]🎯 国内流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`.*
-custom_proxy_group=🚀 国外流量`select`[]✈️ 节点选择`[]🛩️ 备用`[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`.*
-custom_proxy_group=🎯 国内流量`select`[]DIRECT`[]✈️ 节点选择`[]🛩️ 备用`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`.*
-custom_proxy_group=🐟 漏网之鱼`select`[]🚀 国外流量`[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]🎯 国内流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]✈️ 节点选择`[]🛩️ 备用`[]DIRECT
+custom_proxy_group=🕶️ IP归属地伪装`select`[]DIRECT`[]🔯 故障转移`[]✈️ 节点选择`[]🛩️ 备用`[]🎯 国内流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`.*
+custom_proxy_group=🕶️ B站IP伪装`select`[]🕶️ IP归属地伪装`[]DIRECT`[]🔯 故障转移`[]✈️ 节点选择`[]🛩️ 备用`[]🎯 国内流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`.*
+custom_proxy_group=🕶️ 抖音伪装`select`[]🕶️ IP归属地伪装`[]DIRECT`[]🔯 故障转移`[]✈️ 节点选择`[]🛩️ 备用`[]🎯 国内流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`.*
 custom_proxy_group=📲 Telegram`select`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🚀 国外流量`[]🎯 国内流量`[]✈️ 节点选择`[]🛩️ 备用`[]♻️ 自动选择
 custom_proxy_group=📹 YouTube`select`[]🚀 国外流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]✈️ 节点选择`[]🛩️ 备用`[]♻️ 自动选择`.*
 custom_proxy_group=🏂 Twitter`select`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]✈️ 节点选择`[]🛩️ 备用`[]DIRECT`[]♻️ 自动选择`.*
 custom_proxy_group=🤖 AI`select`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]✈️ 节点选择`[]🛩️ 备用`[]DIRECT`.*
+custom_proxy_group=Ⓜ️ 微软AI`select`[]🤖 AI`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]✈️ 节点选择`[]🛩️ 备用`[]DIRECT`.*
+custom_proxy_group=🔍 谷歌服务`select`[]🇺🇲 美国节点`[]🤖 AI`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🚀 国外流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]✈️ 节点选择`[]🛩️ 备用`[]DIRECT`.*
+custom_proxy_group=📺 SOOP`select`[]🇰🇷 韩国自动`[]🇯🇵 日本自动`[]🇸🇬 新加坡自动`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🇭🇰 香港节点`[]🚀 国外流量`[]🇺🇲 美国节点`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]✈️ 节点选择`[]🛩️ 备用`.*
+custom_proxy_group=🕳️ Gravity`select`[]🇯🇵 日本自动`[]🇰🇷 韩国自动`[]🇸🇬 新加坡自动`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🇭🇰 香港节点`[]🚀 国外流量`[]🇺🇲 美国节点`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]✈️ 节点选择`[]🛩️ 备用`.*
 custom_proxy_group=🎥 Netflix`select`[]🇭🇰 香港节点`[]🚀 国外流量`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🇭🇰 香港自动`[]🇯🇵 日本自动`[]🇺🇲 美国自动`[]✈️ 节点选择`[]🛩️ 备用`.*
-custom_proxy_group=🎶 TikTok`select`[]🇺🇲 美国自动`[]🇭🇰 香港自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🚀 国外流量`[]✈️ 节点选择`[]🛩️ 备用`[]DIRECT`[]♻️ 自动选择`.*
-custom_proxy_group=🎦 HBOGO`select`[]🇸🇬 新加坡自动`[]🇸🇬 新加坡节点`[]🚀 国外流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]✈️ 节点选择`[]🛩️ 备用`.*
-custom_proxy_group=🎦 HBOMAX`select`[]🇺🇲 美国自动`[]🇺🇲 美国节点`[]🚀 国外流量`[]🇭🇰 香港自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]✈️ 节点选择`[]🛩️ 备用`.*
+custom_proxy_group=🎶 TikTok`select`[]🇺🇲 美国自动`[]🇭🇰 香港自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🚀 国外流量`[]✈️ 节点选择`[]🛩️ 备用`[]DIRECT`[]♻️ 自动选择`.**
 custom_proxy_group=🎵 Spotify`select`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]🎯 国内流量`(菲律宾|PH)`(巴基斯坦|PK)`(土耳其|TR|Turkey)`(尼日利亚|NG)`[]🚀 国外流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]✈️ 节点选择`[]🛩️ 备用
 custom_proxy_group=🇩 Discord`select`[]🚀 国外流量`[]🎯 国内流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]✈️ 节点选择`[]🛩️ 备用
-custom_proxy_group=🎬 EMBY`select`[]🚀 国外流量`[]🎯 国内流量`(Emby|emby)`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]✈️ 节点选择`[]🛩️ 备用`[]♻️ 自动选择`.*
-custom_proxy_group=🐹 DisneyPlus`select`[]🚀 国外流量`[]🎯 国内流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]✈️ 节点选择`[]🛩️ 备用`.*
 custom_proxy_group=📺 Bilibili`select`[]🎯 国内流量`(港|HK|Hong Kong)`(台|TW|Taiwan|新北|彰化)`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]✈️ 节点选择`[]🛩️ 备用
-custom_proxy_group=Ⓜ️ 微软云盘`select`[]🎯 国内流量`[]🚀 国外流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]✈️ 节点选择`[]🛩️ 备用`[]DIRECT
+
+;咱也理解不了为什么reddit里面这么多telegram，干脆默认和telegram走一起吧。
+custom_proxy_group=👽 Reddit`select`[]📲 Telegram`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇯🇵 日本节点`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]✈️ 节点选择`[]🛩️ 备用`[]DIRECT`[]♻️ 自动选择`.*
+
 custom_proxy_group=♻️ 自动选择`url-test`(^(?!.*(电信|联通|移动)).*)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🔯 故障转移`fallback`(^(?!.*(电信|联通|移动)).*)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🔮 负载均衡`load-balance`(^(?!.*(电信|联通|移动)).*)`http://www.gstatic.com/generate_204`300,,50
@@ -102,12 +104,16 @@ custom_proxy_group=🇸🇬 新加坡自动`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]
 custom_proxy_group=🇯🇵 日本自动`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:日本|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)).*$)`http://www.gstatic.com/generate_204`300,100
 custom_proxy_group=🇺🇲 美国自动`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:美|美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|(?<![a-zA-Z])US(?![a-zA-Z])|(?<![a-zA-Z])USA(?![a-zA-Z])|(?<![a-zA-Z])USD(?![a-zA-Z]))).*$)`http://www.gstatic.com/generate_204`300,,150
 custom_proxy_group=🇭🇰 香港自动`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:港|港|香港|HongKong|HK|Hong Kong)).*$)`http://www.gstatic.com/generate_204`300,100
+custom_proxy_group=🇰🇷 韩国自动`url-test`(^(?!.*x(?:[2-9]|[1-9][0-9]))(?=.*(?:KR|Korea|KOR|首尔|韩|韓)).*$)`http://www.gstatic.com/generate_204`300,100
 custom_proxy_group=🇸🇬 新加坡节点`select`(新加坡|坡|狮城|SG|Singapore)
 custom_proxy_group=🇯🇵 日本节点`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan)
 custom_proxy_group=🇺🇲 美国节点`select`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)
 custom_proxy_group=🇭🇰 香港节点`select`(港|HK|Hong Kong)
 custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT`[]✈️ 节点选择`[]🛩️ 备用`[]🎯 国内流量`[]🚀 国外流量
-custom_proxy_group=💓 贴贴`select`[]🛸 IP归属地伪装`[]DIRECT`[]🔯 故障转移`[]✈️ 节点选择`[]🛩️ 备用`[]🚀 国外流量`[]🎯 国内流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`.*
+custom_proxy_group=🚀 国外流量`select`[]✈️ 节点选择`[]🛩️ 备用`[]♻️ 自动选择`[]🔯 故障转移`[]🔮 负载均衡`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`.*
+custom_proxy_group=🎯 国内流量`select`[]DIRECT`[]✈️ 节点选择`[]🛩️ 备用`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`.*
+custom_proxy_group=🐟 漏网之鱼`select`[]🔯 故障转移`[]🚀 国外流量`[]♻️ 自动选择`[]🔮 负载均衡`[]🎯 国内流量`[]🇭🇰 香港自动`[]🇺🇲 美国自动`[]🇯🇵 日本自动`[]🇭🇰 香港节点`[]🇸🇬 新加坡自动`[]🇸🇬 新加坡节点`[]🇺🇲 美国节点`[]🇯🇵 日本节点`[]✈️ 节点选择`[]🛩️ 备用`[]DIRECT
+
 ;设置分组标志位
 
 enable_rule_generator=true
